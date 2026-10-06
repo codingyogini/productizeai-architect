@@ -1,0 +1,20 @@
+{
+  "name": "productizeai-architect",
+  "description": "Redesign a product, PRD or workflow around useful AI: what stays deterministic, where AI adds value, autonomy per action, validation and economics.",
+  "version": "0.2.0",
+  "author": {
+    "name": "Irene Pylypenko",
+    "url": "https://irenepylypenko.com"
+  },
+  "homepage": "https://irenepylypenko.com/productizeAI",
+  "repository": "https://github.com/codingyogini/productizeai-architect",
+  "keywords": [
+    "product-management",
+    "ai-product-design",
+    "ai-strategy",
+    "agents"
+  ],
+  "privacyPolicyUrl": "https://irenepylypenko.com/productizeAI#privacy",
+  "supportUrl": "https://irenepylypenko.com/productizeAI#support",
+  "documentationUrl": "https://github.com/codingyogini/productizeai-architect#readme"
+}
