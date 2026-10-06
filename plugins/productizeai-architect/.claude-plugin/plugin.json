@@ -1,5 +1,6 @@
 {
   "name": "productizeai-architect",
+  "displayName": "ProductizeAI-Architect",
   "description": "Redesign a product, PRD or workflow around useful AI: what stays deterministic, where AI adds value, autonomy per action, validation and economics.",
   "version": "0.2.0",
   "author": {
