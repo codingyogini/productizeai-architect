@@ -1,0 +1,30 @@
+{
+  "name": "productizeai",
+  "owner": {
+    "name": "Irene Pylypenko",
+    "url": "https://irenepylypenko.com"
+  },
+  "metadata": {
+    "description": "ProductizeAI skills for Claude by Irene Pylypenko"
+  },
+  "plugins": [
+    {
+      "name": "productizeai-architect",
+      "source": "./plugins/productizeai-architect",
+      "description": "Redesign a product, PRD or workflow around useful AI: what stays deterministic, where AI adds value, autonomy per action, validation and economics.",
+      "version": "0.2.0",
+      "author": {
+        "name": "Irene Pylypenko",
+        "url": "https://irenepylypenko.com"
+      },
+      "homepage": "https://irenepylypenko.com/productizeAI",
+      "category": "productivity",
+      "keywords": [
+        "product-management",
+        "ai-product-design",
+        "ai-strategy",
+        "agents"
+      ]
+    }
+  ]
+}
