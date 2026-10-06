@@ -48,4 +48,4 @@ https://irenepylypenko.com/productizeAI#support
 
 ## License
 
-© 2026 Irene Pylypenko. All rights reserved. See https://irenepylypenko.com/productizeAI#terms
+© 2026 Irene Pylypenko. All rights reserved. See [LICENSE](LICENSE) and https://irenepylypenko.com/productizeAI#terms
