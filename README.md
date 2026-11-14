@@ -28,6 +28,10 @@ Each of these had a cheaper or more obvious alternative. Here is what I chose, w
 - **No invented numbers.** Rejected: filling gaps with plausible ROI, adoption rates or pass thresholds so the output looks finished. Missing inputs become formulas and thresholds are labelled as proposed. Prevents: a made-up figure being copied into a business case and treated as validated, and a complete-looking document being mistaken for production readiness.
 - **The skill is instructions only, with no server.** Rejected: a hosted service with connectors that read product documents directly. Prevents: confidential PRDs and roadmaps passing through a third party the user never vetted. It also lets the same method run in both Claude and ChatGPT.
 
+## Example
+
+[A full blueprint on a fictional wholesale bakery](examples/wholesale-bakery-order-changes.md) shows the method end to end, including where it recommends a process fix instead of AI and declines the agent the owner asked for.
+
 ## Install
 
 **Claude Code.** Add the marketplace and install the plugin:
