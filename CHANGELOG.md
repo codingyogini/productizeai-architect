@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.2.1 (2026-11-13)
+- Re-submit for directory check; no functional changes.
+
 ## 0.2.0 (2026-10-06)
 - Check whether a process fix removes the problem before adding AI.
 - Decline autonomy requests the evidence doesn't support; design the highest justified level instead.
