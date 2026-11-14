@@ -17,6 +17,17 @@ Give it a workflow, product idea or PRD and say "Productize this." By default it
 
 It compares every AI step with the simplest non-AI alternative, checks whether a process fix removes the problem before adding AI, and won't design more autonomy than the evidence supports. It doesn't invent ROI, adoption numbers or validated thresholds.
 
+## Design decisions
+
+Each of these had a cheaper or more obvious alternative. Here is what I chose, what I turned down, and the failure each choice is there to prevent.
+
+- **Every AI step is compared with a non-AI baseline.** Rejected: judging the AI redesign only against the current experience, which flatters AI because the current experience is usually the weakest option on the table. Prevents: recommending a model for a job that a rule, a form field or a scheduled reminder would do more cheaply and more reliably.
+- **A process fix is checked before any AI is added.** Rejected: redesigning the workflow as given. Prevents: automating an approval or handoff that should have been deleted, which adds inference and review cost to a step with no value and makes it harder to remove later.
+- **Autonomy is set per action, not per product.** Rejected: labelling the whole product a copilot or an agent. Prevents: a reversible draft and an irreversible external action (sending, paying, deleting) inheriting the same permission. Whether the system can do something and whether it is allowed to are kept as separate questions.
+- **Requests for more autonomy than the evidence supports are not designed as asked.** Rejected: building what the user asked for, and also refusing outright. The skill designs the highest level the evidence supports and names the evidence that would justify the next one. Prevents: a blueprint that hands an accountable person's decision to an agent whose error rate nobody has measured.
+- **No invented numbers.** Rejected: filling gaps with plausible ROI, adoption rates or pass thresholds so the output looks finished. Missing inputs become formulas and thresholds are labelled as proposed. Prevents: a made-up figure being copied into a business case and treated as validated, and a complete-looking document being mistaken for production readiness.
+- **The skill is instructions only, with no server.** Rejected: a hosted service with connectors that read product documents directly. Prevents: confidential PRDs and roadmaps passing through a third party the user never vetted. It also lets the same method run in both Claude and ChatGPT.
+
 ## Install
 
 **Claude Code.** Add the marketplace and install the plugin:
